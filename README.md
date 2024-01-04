@@ -1,47 +1,41 @@
 # CFG-CK-DataSQL-Project
 
-This repository includes the SQL syntax and presentation materials for my project analyzing London’s Quality of Life Indicators, completed as part of the CFG Code Kickstarter course on Intro to Data and SQL in December 2022.
+This repository contains the SQL syntax and presentation materials for my project analyzing London’s Quality of Life Indicators, completed as part of the CFG Code Kickstarter course on Intro to Data and SQL in December 2022.
 
 ## Introduction/Context: ##
 
-- This project is a follow-up to my master's degree dissertation
-- I thought about working with databases with variables of quality of life when moving in between the London boroughs, besides monetary cost, public transport proximity and visual quality of the property
-- The indicators considered were Life Expectancy, Crime Deprivation, Income Deprivation, Housing Tenure and Pollution (PM emissions), datasets available on the London Data Store website and I considered the year 2019
+- This project is an extension of my master's degree dissertation.
+- It aimed to explore databases concerning quality of life factors when moving between London boroughs, encompassing variables beyond monetary costs, including public transport proximity and property visual quality.
+- The indicators considered were Life Expectancy, Crime Deprivation, Income Deprivation, Housing Tenure, and Pollution (PM emissions), sourced from datasets available on the London Data Store website, specifically for the year 2019.
 
 **Objectives:**
 
-- The main goal was to practice what I learned during the short course: creating databases, setting primary and foreign keys, database diagrams, showing joins applications, creating a stored function, subquery, stored procedure, trigger and some visualisations at the end (optional)
-- I particularly wanted to apply it in a real-life situation, therefore hopefully, the questions I selected to use SQL functions make sense
+- To apply the knowledge gained during the course, including creating databases, defining primary and foreign keys, generating database diagrams, implementing joins, creating stored functions, subqueries, stored procedures, triggers, and optional visualizations.
+- To apply SQL functions to real-life scenarios by selecting relevant questions.
 
 ## Data Collection and Analysis: ##
 
-- I selected the databases that would make sense to consider for a real-life situation and selected the same year where all datasets were publicly available
-- That way it was easy to create the databases, pk and fk on MySQL since all the dataset has the borough and the borough code in common
-- It was challenging to think about the questions to showcase the potential of the database language and especially subquery was particularly very challenging.
-- The Tableau visualisations do not reflect the same level of learning of the SQL language. However, it was good to familiarise myself with how easy it is to create maps with this new software and besides the databases, I had to use a shapefile from London with the boroughs.
+- Careful selection of databases pertinent to real-life scenarios, utilizing datasets available for the common year (2019) where all datasets were publicly accessible.
+- Ease of database creation, primary keys (pk), and foreign keys (fk) on MySQL due to common borough and borough code fields in the datasets.
 
 **Key Learnings/Insights:**
 
-- There are other indicators influencing the decision as to where someone should move and perhaps the ones I choose for this project are more inclined to be considered for the ones who are buying properties, since it is a long-term commitment.
-- There is a lot of potential in working with these datasets, also separately and seeing how they change through the years and what impact they have on the resident's health.
-- For example, Hillingdon showed by far the worst concentration of pm emissions in 2019 compared to other boroughs it is worth considering what policies are in place to change this scenario.
-- It is possible to consider multiple indicators and show the results on a map.
+- Consideration of other influencing indicators when making relocation decisions, particularly tailored towards property buyers due to their long-term commitments.
+- Identified significant potential in analyzing datasets separately over time to understand their impact on residents' health.
+- Example: Hillingdon exhibited the most severe PM emissions concentration in 2019 compared to other boroughs, warranting a closer examination of policies aimed at rectifying this issue.
+- Ability to consider multiple indicators and showcase results via mapping.
 
 **Impact/Results:**
 
-Discuss the tangible outcomes or impact of your project.
-Quantify results where possible (percentage improvements, cost savings, etc.).
-Include any real-world applications or changes resulting from your findings.
-Bullet points: 3-5 impactful results or changes observed.
+- Advocating for a right to the city, I emphasise the need for policies aligned with community needs. Accessibility to easily readable data (via visualizations) empowers individuals to prioritize community issues.
+- Heightened awareness of these indicators enables individuals to make informed decisions regarding relocation within boroughs.
 
 **Challenges and Solutions:**
 
-Address obstacles encountered during the project.
-Detail how you overcame challenges or adapted strategies.
-Bullet points: 2-3 key challenges faced and their respective solutions.
+- Crafting questions to demonstrate the database language's potential proved challenging, with subqueries presenting a particularly steep learning curve.
+- Discrepancies between Tableau visualizations and SQL learning, although Tableau provided an opportunity to familiarize myself with map creation using shapefiles for London boroughs.
+- Reminder to thoroughly check syntax, with minor errors discovered on slide 5. 
 
 **Future Steps/Recommendations:**
 
-Suggest potential follow-up actions or areas for further exploration.
-Offer recommendations based on the project's findings.
-Bullet points: 2-4 actionable recommendations for future steps.
+- Leveraging datasets available for smaller borough areas like MSOAs and LSOAs to enhance location precision in decision-making processes.
